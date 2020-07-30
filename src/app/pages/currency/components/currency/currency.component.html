@@ -1,0 +1,25 @@
+<form [formGroup]="modelForm" novalidate>
+<div class="p-grid ui-fluid p-justify-center">
+  <div class="p-col-6">
+    <label for="code">Código de moneda</label>
+    <input id="code" type="text" size="30" pInputText formControlName="code">
+  </div>
+  <div class="p-col-6">
+    <label for="name">Nombre</label>
+    <input id="name" type="text" size="30" pInputText formControlName="name">
+  </div>
+  <div class="p-col-6">
+    <label for="nationalCurrency">Moneda nacional</label>
+    <div>
+      <p-inputSwitch id="nationalCurrency" formControlName="nationalCurrency"></p-inputSwitch>
+    </div>
+  </div>
+  <div class="p-col-6">
+    <label for="exchangeRate">Tipo de cambio</label >
+    <input id="exchangeRate" type="text" size="30" pInputText formControlName="exchangeRate" pKeyFilter="num">
+  </div>
+  <div class="p-col-3">
+    <button (click)="save()" pButton type="button" icon="pi pi-save" label="Guardar" ></button>
+  </div>
+</div>
+</form>

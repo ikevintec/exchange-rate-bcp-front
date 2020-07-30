@@ -28,7 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/quill/dist/quill.snow.css",
+              "node_modules/primeflex/primeflex.css"
             ],
             "scripts": []
           },
@@ -92,7 +97,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css"
             ],
             "scripts": []
           }
@@ -123,6 +131,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "exchange-rate-front"
+    }
+  },
+  "defaultProject": "exchange-rate-front",
+  "cli": {
+    "analytics": "2f9ec81f-ca05-4607-8c53-f7be11767a3a"
+  }
 }
